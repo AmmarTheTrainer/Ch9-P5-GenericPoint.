@@ -31,6 +31,8 @@ namespace Ch9_P5_GenericPoint
             p2.ResetPoint();
             Console.WriteLine("p2.ToString()={0}", p2.ToString());
 
+            Console.WriteLine("new line for testing");
+
             Console.ReadLine();
         }
     }
