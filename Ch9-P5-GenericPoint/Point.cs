@@ -11,6 +11,7 @@ namespace Ch9_P5_GenericPoint
         // Generic state date.
         private T xPos;
         private T yPos;
+
         // Generic constructor.
         public Point(T xVal, T yVal)
         {
