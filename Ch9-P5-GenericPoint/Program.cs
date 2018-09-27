@@ -34,9 +34,12 @@ namespace Ch9_P5_GenericPoint
 
             #region Constraning Type Parameters
 
-            MyGenericClass<int> myGeneric = new MyGenericClass<int>();
-            MyGenericClass<string> myGeneric2 = new MyGenericClass<string>();
-            
+            //MyGenericClass<int> myGeneric = new MyGenericClass<int>();
+            //MyGenericClass<string> myGeneric2 = new MyGenericClass<string>();
+            //MyGenericClass<Person> myGeneric2 = new MyGenericClass<Person>();
+            //MyGenericClass<TestClass> myGeneric2 = new MyGenericClass<TestClass>();
+
+            MyGenericClass<TestClass> mc = new MyGenericClass<TestClass>();
 
 
             #endregion

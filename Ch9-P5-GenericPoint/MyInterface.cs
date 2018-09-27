@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace Ch9_P5_GenericPoint
 {
-    internal class MyGenericClass<T> where T : MyInterface
+    interface MyInterface
     {
-        
+        void Method1();
     }
 }
