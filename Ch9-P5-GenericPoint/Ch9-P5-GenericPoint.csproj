@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BasicMath.cs" />
     <Compile Include="MyGenericClass.cs" />
     <Compile Include="MyInterface.cs" />
     <Compile Include="Person.cs" />
